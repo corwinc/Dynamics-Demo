@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FCB09C611CC025CF000A2B9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB09C601CC025CF000A2B9F /* AppDelegate.swift */; };
-		FCB09C631CC025CF000A2B9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB09C621CC025CF000A2B9F /* ViewController.swift */; };
 		FCB09C661CC025CF000A2B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB09C641CC025CF000A2B9F /* Main.storyboard */; };
 		FCB09C681CC025CF000A2B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB09C671CC025CF000A2B9F /* Assets.xcassets */; };
 		FCB09C6B1CC025CF000A2B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB09C691CC025CF000A2B9F /* LaunchScreen.storyboard */; };
 		FCB09C761CC025CF000A2B9F /* Dynamics_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB09C751CC025CF000A2B9F /* Dynamics_DemoTests.swift */; };
 		FCB09C811CC025CF000A2B9F /* Dynamics_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB09C801CC025CF000A2B9F /* Dynamics_DemoUITests.swift */; };
+		FCB09C8F1CC025DF000A2B9F /* GravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB09C8E1CC025DF000A2B9F /* GravityViewController.swift */; };
+		FCB09C911CC026DE000A2B9F /* FallingSnowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB09C901CC026DE000A2B9F /* FallingSnowViewController.swift */; };
+		FCB09C931CC170EA000A2B9F /* SpaceshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB09C921CC170EA000A2B9F /* SpaceshipViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		FCB09C5D1CC025CF000A2B9F /* Dynamics Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamics Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB09C601CC025CF000A2B9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCB09C621CC025CF000A2B9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCB09C651CC025CF000A2B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCB09C671CC025CF000A2B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB09C6A1CC025CF000A2B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		FCB09C7C1CC025CF000A2B9F /* Dynamics DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamics DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB09C801CC025CF000A2B9F /* Dynamics_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamics_DemoUITests.swift; sourceTree = "<group>"; };
 		FCB09C821CC025CF000A2B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB09C8E1CC025DF000A2B9F /* GravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityViewController.swift; sourceTree = "<group>"; };
+		FCB09C901CC026DE000A2B9F /* FallingSnowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallingSnowViewController.swift; sourceTree = "<group>"; };
+		FCB09C921CC170EA000A2B9F /* SpaceshipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				FCB09C601CC025CF000A2B9F /* AppDelegate.swift */,
-				FCB09C621CC025CF000A2B9F /* ViewController.swift */,
 				FCB09C641CC025CF000A2B9F /* Main.storyboard */,
+				FCB09C8E1CC025DF000A2B9F /* GravityViewController.swift */,
+				FCB09C901CC026DE000A2B9F /* FallingSnowViewController.swift */,
+				FCB09C921CC170EA000A2B9F /* SpaceshipViewController.swift */,
 				FCB09C671CC025CF000A2B9F /* Assets.xcassets */,
 				FCB09C691CC025CF000A2B9F /* LaunchScreen.storyboard */,
 				FCB09C6C1CC025CF000A2B9F /* Info.plist */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB09C631CC025CF000A2B9F /* ViewController.swift in Sources */,
 				FCB09C611CC025CF000A2B9F /* AppDelegate.swift in Sources */,
+				FCB09C911CC026DE000A2B9F /* FallingSnowViewController.swift in Sources */,
+				FCB09C8F1CC025DF000A2B9F /* GravityViewController.swift in Sources */,
+				FCB09C931CC170EA000A2B9F /* SpaceshipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
